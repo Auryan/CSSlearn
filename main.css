@@ -1,0 +1,33 @@
+.main{
+ background-color: slategrey;
+}
+
+.body-paragraph{
+    /*position: relative;*/
+    display: inline-block;
+}
+
+div{
+    border: 1px solid red;
+    padding: 5px;
+    height: auto;
+    position: relative;
+    /*text-align: center;*/
+}
+div>h1{
+    font-family: "Apple Braille";
+    /*font-size: x-large;*/
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+h1>span{
+    font-weight: 700;
+}
+
+p>span{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.25em;
+    font-style: italic;
+}
